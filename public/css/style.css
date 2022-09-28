@@ -1,0 +1,504 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.nav-item{
+  font-weight: bold;
+  color: #000000;
+}
+.hero-section{
+  background-color: rgb(247, 247, 247);
+ 
+}
+/* HERO CSS */
+.hero-content {
+  margin-top: 70px;
+}
+
+.hero-section .hero-content h1 {
+  /* width: 646px; */
+  height: 168px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.hero-content p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-top: 40px;
+}
+
+.hero-image img {
+  /* margin-left: 60px; */
+}
+
+.hero-button {
+  padding-top: 40px;
+}
+
+.hero-button .hire {
+  position: static;
+  width: 210px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  border: none;
+  background: #00a6f2;
+  box-shadow: 0px 8px 10px -6px rgba(16, 24, 40, 0.1),
+    0px 20px 25px -5px rgba(16, 24, 40, 0.1);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+margin: 10px;
+  color: #ffffff;
+}
+
+.hire:hover {
+  color: black;
+}
+
+.job:hover {
+  color: black !important;
+}
+
+.hero-button .job {
+  position: static;
+  width: 150px;
+  height: 60px;
+  left: 242px;
+  top: 0px;
+  background: #f75622;
+  border: none;
+  box-shadow: 0px 8px 10px -6px rgba(16, 24, 40, 0.1),
+    0px 20px 25px -5px rgba(16, 24, 40, 0.1);
+  margin-left: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+/* Clients Section */
+.clients .clients-image {
+  margin-top: 30px;
+  display: flex;
+}
+
+.clients .clients-image img {
+  margin: 20px;
+}
+
+.clients h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 48px;
+  /* padding-left: 20px !important; */
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-top: 10px;
+}
+
+
+.clients-content {
+  /* margin-left: 30px; */
+}
+
+.clients-content span {
+  position: static;
+  width: 0px;
+  height: 80px;
+  left: 270px;
+  top: -27.67px;
+  border: 2px solid #000000;
+  margin-left: 20px;
+}
+
+.clients p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #000000;
+}
+.testimonial{
+  background-image: url(/img/woman-computer.png);
+  background-repeat: no-repeat;
+   height: 100% !important;
+}
+.testimonial-heading{
+  padding-top: 10%;
+  
+  
+}
+.testimonial-content h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+   letter-spacing: -0.02em;
+  color: #7b7373;
+}
+.testimonial-heading p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+  color: #000000;
+}
+.testimonial-social{
+  display: flex;
+  padding-bottom: 20%;
+   
+}
+.testimonial-content{
+  margin-top: 30px;
+}
+
+.testimonial-image{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+
+.testimonial-card img {
+  width: 80%;
+  
+}
+
+.testimonial-content p {
+  font-size: 18px;
+  color: grey;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.testimonial-card {
+   background: rgba(0, 166, 242, 0.2);
+   border-radius: 30px;
+  
+  }
+.testimonial .social-link {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin: 10px;
+  background: rgba(0, 166, 242, 0.8);
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+
+}
+.testimonial .social-link:hover {
+  background-color: #f75622;
+}
+
+.testimonial .social-link i {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 10px;
+  color: #ffffff;
+ 
+}
+
+.social-link i {
+  font-size: 50px !important;
+ 
+}
+
+.testimonial .social-link a {
+  text-decoration: none;
+}
+
+
+.project-heading {
+  padding-top: 70px;
+}
+
+.project-heading h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+.project-heading p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 20px;
+  color: #000000;
+}
+
+.counter-create{
+  background: #e4ecf2;
+}
+
+.counter-box {
+display: block;
+
+padding: 100px  0px ;
+text-align: center;
+
+}
+
+.counter-box p {
+margin: 5px 0 0;
+padding: 0;
+
+font-size: 18px;
+font-weight: 500
+}
+
+.counter-box i {
+font-size: 60px;
+margin: 0 0 15px;
+
+}
+
+.counter { 
+display: block;
+font-size: 32px;
+font-weight: 700;
+color: #00a6f2;
+/* line-height: 28px; */
+
+}
+
+
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+color: #fff;
+}
+
+
+
+.press-section{
+  height: 100vh;
+  
+  
+}
+.press-content {
+  min-height: 30vh;
+}
+
+.press-content h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 120%;
+  
+
+ 
+}
+
+.press-content p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 120%;
+  
+}
+
+.press {
+  color: #0e6fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+footer {
+  background-image: linear-gradient(94.41deg, #cfd1d2 0%, #ebecee 100%);
+  /* min-height: 70vh; */
+}
+
+.footer-logo {
+  /* margin-top: 180px; */
+  padding-bottom: 40px;
+}
+
+footer ul {
+  /* margin-top: 140px; */
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: gray;
+  text-decoration: none;
+}
+
+footer .head {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  /* line-height: 28px; */
+  color: #000000;
+}
+
+footer li a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  /* line-height: 24px; */
+  
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-logo .gmail {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  /* line-height: 28px; */
+  
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+.about-us-header p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400 !important;
+  /* line-height: 32px; */
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.about-desc .header p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400 !important;
+  /* line-height: 32px; */
+  letter-spacing: -0.02em;
+  text-align: center;
+  /* width: 90%; */
+  margin: auto;
+}
+
+.about-desc .row h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.about-desc .row p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400 !important;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.about-desc .img {
+  width: 100%;
+}
+
+.about-desc .img img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.project{
+  margin-top:100px ;
+}
+@media screen and (max-width: 960px){
+ .hero-image img{
+  width: 100%;
+ }
+ .clients-header .clients-image{
+  display: block;
+ }
+ .testimonial{
+  
+   min-height: 90vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+     
+  }
+  .testimonial-heading , .testimonial-content{
+   
+   margin: 30px;
+  }
+  .testimonial-social{
+    margin: 10px;
+  }
+  .press-content{
+    display: flex;
+    flex-direction: column !important;
+    min-height: 40vh;
+    justify-content: center;
+    padding: 0px !important;
+  }
+  .press{
+    padding: 2px 10px;
+    font-size: 20px !important;
+  }
+  .footer{
+    height: 90vh;
+  }
+
+ }
+  
+  
+
+
+@media only screen and (max-width: 360px){
+  body{
+    /* width: 282%; */
+    /* height: fit-content; */
+  }
+  .counter-content{
+    background: #e4ecf2;
+    height: 150vh;
+     
+  }
+
+
+}
